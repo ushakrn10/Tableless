@@ -7,12 +7,12 @@ This will be useful for those of us who are not using Rails 3, but need the Acti
 Usage is simple. Firstly place tableless.rb in APP_DIR/lib, then:
 
 <pre>
-	class MyModel < ActiveRecord::Base
-	  include Tableless
+class MyModel < ActiveRecord::Base
+	include Tableless
 
-	  column :field_one, :string
-	  column :field_two, :text
-		column :field_three, :boolean
-	end
+	column :field_one, :string
+	column :field_two, :text
+	column :field_three, :boolean
+end
 	
 </pre> 
