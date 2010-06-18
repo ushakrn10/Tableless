@@ -2,7 +2,7 @@ h1. Tableless
 
 Tableless is a simple, almost trivial mixin, that will let you use ActiveRecord models without a corresponding database table
 
-This will be useful for those of us who are not using Rails 3, but need the ActiveRecord validation functionality, would like to transparently use cool things like Formtastic.
+This will be useful for those of us who are not using Rails 3, but need the ActiveRecord validation functionality, or would like to transparently use cool things like Formtastic.
 
 Usage is simple. Firstly place tableless.rb in APP_DIR/lib, then:
 
